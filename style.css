@@ -1,0 +1,285 @@
+header {
+    background: #E6E6E6;
+    padding: 20px 0;
+    margin:  0 auto;
+}
+
+.caixa {
+    position: relative;
+    width: 1080px;
+    margin: 0 auto;
+}
+
+.logo {
+    display: inline;
+    position: relative;
+    width: 30%;
+    margin: 20px 0;
+}
+
+.ada-lovelace {
+    display: inline;
+    position: absolute;
+    width: 40%;
+    top: 0px;
+    right: 0;
+}
+
+nav {
+    position: absolute;
+    top: 110px;
+    right: 0;
+}
+
+nav li {
+    display: inline;
+    margin: 0 0 0 40px;
+}
+
+nav a {
+    text-transform: uppercase;
+    color: #000000;
+    font-weight: bold;
+    font-size: 18px;
+    text-decoration: none;
+    font-family: 'Dela Gothic One', cursive;
+}
+
+nav a:hover {
+    color: #E36414;
+    text-decoration: underline;
+}
+
+/* home */
+
+.banner-rotulo {
+    width: 100%;
+}
+
+.principal {
+    padding: 3em 0;
+    width: 940px;
+    margin: 0 auto;
+}
+
+.titulo-principal {
+    display: inline;
+    text-align: left;
+    font-size: 1.5em;
+    clear: left;
+    font-family: 'Dela Gothic One', cursive;
+    text-transform: uppercase;
+}
+
+.principal p {
+    padding: 1em 0 0 0;
+    margin: 0 0 1em;
+    font-family: 'Montserrat', sans-serif;
+    line-height: 1.5;
+}
+
+.cervejas {
+    width: 40%;
+    float: right;
+    
+}
+
+.mapa {
+    padding: 2em 0 0;
+    width: 940px;
+    margin: 0 auto;
+}
+
+.mapa p {
+    padding: 1em 0 0 0;
+    margin: 0 0 1em;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.banner-garrafa {
+    width: 100%;
+}
+
+footer {
+    text-align: center;
+    background: #E36414;
+    padding: 40px 0;
+}
+
+footer p {
+    margin: 1em 0 0 0;
+    font-family: 'Montserrat', sans-serif;
+    color: #293241;
+}
+
+.logo-footer {
+    width: 20%;
+}
+
+.fundo {
+    width: 100%;
+    background: linear-gradient(#E6E6E6, #A5A5A5);
+}
+
+/* produtos*/
+
+.produtos {
+    padding: 1em 0;
+    width: 940px;
+    margin: 0 auto;
+}
+
+.produtos li {
+    display: inline-block;
+    text-align: center;
+    width: 940px;
+    vertical-align: top;
+    margin: 2em;
+    padding: 50px 20px;
+    box-sizing: border-box;
+    border: 2px solid #000000;
+    border-radius: 10px;
+}
+
+.produtos h1 {
+    display: inline;
+    text-align: left;
+    font-size: 2em;
+    clear: left;
+    font-family: 'Dela Gothic One', cursive;
+    text-transform: uppercase;
+}
+
+.produto-nome {
+    margin: 0 0 1em;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    font-size: 1em;
+    line-height: 1.5;
+} 
+
+.produto-descricao {
+    padding: 1em 0 0 0;
+    margin: 0 3em 0 3em;
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    line-height: 1.5;
+}
+
+.produtos li:hover {
+    border-color: #C78C19;
+}
+
+.produtos li:active {
+    border-color: #088C19;  
+}
+
+.ipa, .lager, .stout {
+    float: left;
+    width: 10%;
+}
+
+.fundo-produtos {
+    width: 100%;
+    background: linear-gradient(#E6E6E6, #A5A5A5);
+}
+
+.cervejas-zoom {
+    width: 940px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.ipa-zoom, .lager-zoom, .stout-zoom {
+    display: inline-block;
+    width: 15%;
+    margin: 0 3em 5em;
+    opacity: 0.7;
+}
+
+.ipa-zoom:hover, .lager-zoom:hover, .stout-zoom:hover {
+    width: 20%;
+    opacity: 1;
+}
+
+.footer-produtos {
+    text-align: center;
+    background: #283618;
+    padding: 40px 0;
+}
+
+.footer-produtos p {
+    margin: 1em 0 0 0;
+    font-family: 'Montserrat', sans-serif;
+    color: #BB9457;
+}
+
+/*contato*/
+
+form {
+    padding: 40px 40px;
+}
+
+form label, form legend {
+    display:block;
+    font-size: 20px;
+    margin: 0 0 10px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.input-padrao {
+    display: block;
+    margin: 0 0 20px;
+    padding: 10px 25px;
+    width: 50%;
+}
+
+.checkbox {
+    margin: 20px 0;
+}
+
+.enviar {
+    width:40%;
+    padding: 15px 0;
+    background: #330066;
+    color: white;
+    font-size: 18px;
+    border: none;
+    border-radius: 5px;
+    transition: 1s all;
+    cursor: pointer;
+    font-family: 'Dela Gothic One', cursive;
+}
+
+.enviar:hover {
+    background: #F60C86;
+    transform: scale(1.1);
+}
+
+table {
+    margin: 40px 40px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+thead {
+    background: #555555;
+    color: white;
+    font-weight: bold;
+}
+
+td, th {
+    border: 1px solid #000000;
+    padding: 8px 15px;
+}
+
+.footer-contato {
+    text-align: center;
+    background: #330066;
+    padding: 40px 0;
+}
+
+.footer-contato p {
+    margin: 1em 0 0 0;
+    font-family: 'Montserrat', sans-serif;
+    color: #F60C86;
+}
